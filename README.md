@@ -25,5 +25,7 @@ The model is designed to help optimize **inventory management, marketing campaig
   - Sales per customer
 - Model: LightGBM (Gradient Boosting)
 
+📊 Tools & Libraries
+pandas, numpy, scikit-learn, lightgbm, matplotlib, seaborn
 to run the web application, run the following line in terminal:
 streamlit run app.py

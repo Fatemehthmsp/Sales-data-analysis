@@ -1,10 +1,10 @@
-🛒 Sales-data-analysis
+Sales-data-analysis
 
-📌 Overview
+Overview
 A predictive analytics project to forecast daily sales in chain stores and extract insights into customer behavior.  
 The model is designed to help optimize **inventory management, marketing campaigns, and operational planning**.
 
-📂 Dataset
+Dataset
 - Source: Real-world daily sales transactions (`data.csv`)
 - Key Features:
   - Store ID
@@ -16,7 +16,7 @@ The model is designed to help optimize **inventory management, marketing campaig
   - StateHoliday
   - SchoolHoliday
 
-🛠 Methods & Models
+Methods & Models
 - Data Cleaning: Remove closed store days, zero-sales entries, and outliers.
 - Feature Engineering:
   - Temporal features: year, month, week, day
@@ -25,7 +25,8 @@ The model is designed to help optimize **inventory management, marketing campaig
   - Sales per customer
 - Model: LightGBM (Gradient Boosting)
 
-📊 Tools & Libraries
+Tools & Libraries
 pandas, numpy, scikit-learn, lightgbm, matplotlib, seaborn
+
 to run the web application, run the following line in terminal:
 streamlit run app.py
